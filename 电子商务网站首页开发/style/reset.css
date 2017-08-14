@@ -1,0 +1,12 @@
+/*这里写标签的时候有一个原则，那就是网站中用到的就写，不用的尽量不写*/
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+li {list-style: none;}
+img {border: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+.clear{*zoom:1}
+.clear:after{content:'';display:block;clear:both;}
